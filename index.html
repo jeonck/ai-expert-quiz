@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인공지능(AI)전문가 1급 예상문제 퀴즈</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>인공지능(AI)전문가 1급</h1>
+            <h2>예상문제 퀴즈</h2>
+            <p>출제 : 한국자격검정평가진흥원</p>
+        </header>
+
+        <div class="quiz-container">
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress" id="progress"></div>
+                </div>
+                <span class="progress-text" id="progressText">0/21</span>
+            </div>
+
+            <div class="question-container">
+                <div class="question-number" id="question-number">1/21</div>
+                <div class="question" id="question">질문이 로딩 중입니다...</div>
+                <div class="options" id="options">
+                    <!-- Options will be dynamically inserted here -->
+                </div>
+                <div class="buttons">
+                    <button id="check-btn" class="btn">정답 확인</button>
+                    <button id="next-btn" class="btn" style="display: none;">다음 문제</button>
+                    <button id="prev-btn" class="btn" style="display: none;">이전 문제</button>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2025 AI Expert Quiz. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
